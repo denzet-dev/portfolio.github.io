@@ -1,17 +1,14 @@
 body {
-    text-align: center;
-    background-color: rgb(244, 244, 244);
+    background-image: url(tlo.png);
+    background-repeat: no-repeat;
+    background-color: black;
 }
 
-.main {
-    margin: 50%;
-    background-color: rgb(234, 234, 234);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 300px;
-    border: 2px solid gray;
-    border-radius: 10px;
+.page {
+    margin-inline: auto;
+    max-width: 72rem;
+    padding-inline: 1rem;
+    text-align: center;
 }
 
 img {
@@ -20,10 +17,23 @@ img {
     border-radius: 10px;
 }
 h1 {
-    color: rgb(3, 3, 3);
+    color: rgb(255, 255, 255);
 }
 
 h2 {
     font-size: 18px;
-    color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
+}
+
+a:link {
+    color: aqua;
+}
+
+a:hover {
+    color: red;
+}
+
+.radial-shape {
+    background: radial-gradient(circle cover at center, red, yellow, white);
+    height: 10vh;
 }
